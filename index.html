@@ -10,20 +10,21 @@
 </head>
 
 <body>
-    <div class="menu">
-        <header>
-            <ul class="horizontal">
-                <li onmouseenter="mostrarInfo('infoNombre')" onmouseleave="ocultarInfo('infoNombre')">Nombre</li>
-                <li onmouseenter="mostrarInfo('infoCorreo')" onmouseleave="ocultarInfo('infoCorreo')">Correo</li>
-                <li onmouseenter="mostrarInfo('infoNacimiento')" onmouseleave="ocultarInfo('infoNacimiento')">Fecha nacimiento</l>
-                <li onmouseenter="mostrarInfo('infoDireccion')" onmouseleave="ocultarInfo('infoDireccion')">Dirección</li>
-                <li onmouseenter="mostrarInfo('infoTelefono')" onmouseleave="ocultarInfo('infoTelefono')">Telefono</li>
-            </ul>     
-        </header>
-    </div>
 
     <div id="imgPrincipal">
         <img src="https://randomuser.me/api/portraits/women/76.jpg" alt="Foto personal">
+    </div>
+
+    <div class="menu">
+        <header>
+            <ul class="horizontal">
+                <li onmouseenter="mostrarInfo('infoNombre')" onmouseleave="ocultarInfo('infoNombre')"><img src="iconos/nombre.png" class="iconMenu"></li>
+                <li onmouseenter="mostrarInfo('infoCorreo')" onmouseleave="ocultarInfo('infoCorreo')"><img src="iconos/correo.png" class="iconMenu"></li>
+                <li onmouseenter="mostrarInfo('infoNacimiento')" onmouseleave="ocultarInfo('infoNacimiento')"><img src="iconos/nacimiento.png" class="iconMenu"></l>
+                <li onmouseenter="mostrarInfo('infoDireccion')" onmouseleave="ocultarInfo('infoDireccion')"><img src="iconos/direcc.png" class="iconMenu"></li>
+                <li onmouseenter="mostrarInfo('infoTelefono')" onmouseleave="ocultarInfo('infoTelefono')"><img src="iconos/celular.png" class="iconMenu"></li><br>
+            </ul>     
+        </header>
     </div>
 
     <script src="js/function.js"></script>

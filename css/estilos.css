@@ -1,15 +1,33 @@
     * {
         background-color: aquamarine;
     }
+
+    .iconMenu{
+        border: 2px solid rgb(179, 177, 177);
+        height: 50px;
+    }
     
     #imgPrincipal,
     .info {
         text-align: center;
-        float: none;
     }
     
     ul.horizontal li {
         display: flex;
         float: left;
         padding: 0 10px;
+    }
+
+    .menu{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    .horizontal{
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
