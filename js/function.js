@@ -1,7 +1,3 @@
-document.getElementById('nombreButton').addEventListener('click', function() {
-    document.getElementById('infoNombre').style.display = 'block';
-});
-
 document.getElementById('correoButton').addEventListener('click', function() {
     document.getElementById('infoCorreo').style.display = 'block';
 });
@@ -17,3 +13,9 @@ document.getElementById('direccButton').addEventListener('click', function() {
 document.getElementById('telButton').addEventListener('click', function() {
     document.getElementById('infoTelefono').style.display = 'block';
 });
+
+function mostrarInfo(buttonValue, mostrarInfo) {
+    document.getElementById(buttonValue).addEventListener('click', function() {
+        document.getElementById(mostrarInfo).style.display = 'block';
+    });
+}
