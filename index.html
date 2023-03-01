@@ -14,11 +14,11 @@
         <header>
             <nav>
                 <ul class="horizontal">
-                    <li><a href="#infoNombre">Nombre</a></li>
-                    <li><a href="#infoCorreo">Correo</a></li>
-                    <li><a href="#infoNacimiento">Fecha nacimiento</a></l>
-                        <li><a href="#infoDireccion">Dirección</a></li>
-                        <li><a href="#infoTelefono">Telefono</a></li>
+                    <li><a href="#infoNombre" id="nombreButton">Nombre</a></li>
+                    <li><a href="#infoCorreo" id="correoButton">Correo</a></li>
+                    <li><a href="#infoNacimiento" id="fechaButton">Fecha nacimiento</a></l>
+                        <li><a href="#infoDireccion" id="direccButton">Dirección</a></li>
+                        <li><a href="#infoTelefono" id="telButton">Telefono</a></li>
                 </ul>
             </nav>
         </header>
@@ -28,27 +28,29 @@
         <img src="https://randomuser.me/api/portraits/women/76.jpg" alt="Foto personal">
     </div>
 
-    <div class="infoNombre">
+    <script src="js/function.js"></script>
+
+    <div id="infoNombre" style="display: none;">
         <p id="presentacionNombre">Mi nombre es</p>
         <p id="nombre">Nellie Hoffman</p>
     </div>
 
-    <div class="infoCorreo">
-        <p id="presentacionCorreo"> Mi correo es</p>
-        <p id="contacto">nellie.hoffman@example.com</p>
+    <div id="infoCorreo" style="display: none;">
+        <p id=" presentacionCorreo "> Mi correo es</p>
+        <p id="contacto ">nellie.hoffman@example.com</p>
     </div>
 
-    <div class="infoNacimiento">
+    <div id="infoNacimiento" style="display: none;">
         <p id="presentacionNacimiento">Mi fecha de nacimiento es</p>
         <p id="nacimiento">8/1/1985</p>
     </div>
 
-    <div class="infoDireccion">
-        <p id="presentacionDireccion">Mi dirección es</p>
-        <p id="direccion">1408 Pockrus Page Rd</p>
+    <div id="infoDireccion" style="display: none;">
+        <p id=" presentacionDireccion ">Mi dirección es</p>
+        <p id="direccion ">1408 Pockrus Page Rd</p>
     </div>
 
-    <div class="infoTelefono">
+    <div id="infoTelefono" style="display: none;">
         <p id="presentacionTelefono">Mi telefono es</p>
         <p id="telefono">(672) 827-9345</p>
     </div>
