@@ -1,3 +1,8 @@
 * {
     background-color: aquamarine;
 }
+
+#imgPrincipal,
+.info {
+    text-align: center;
+}
