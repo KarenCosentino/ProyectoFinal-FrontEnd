@@ -1,14 +1,7 @@
 
-let contador = 0;
 function mostrarInfo(mostrar) {
-    if(contador === 0){
-        let mostrarInfo = mostrar;
-        document.getElementById(mostrarInfo).style.display = 'block';
-        contador++;
-    }else{
-        ocultarInfo(mostrar);
-        contador--;
-    }
+    let mostrarInfo = mostrar;
+    document.getElementById(mostrarInfo).style.display = 'block';
    
 }
 
