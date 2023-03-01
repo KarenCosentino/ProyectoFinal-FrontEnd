@@ -7,8 +7,7 @@
         height: 50px;
     }
     
-    #imgPrincipal,
-    .info {
+    #imgPrincipal {
         text-align: center;
     }
     
@@ -22,12 +21,30 @@
         text-align: center;
     }
 
-    p{
+    .info{
         text-align: center;
+        border: 1px solid rgb(179, 177, 177);
+    }
+
+    p{
+        font-family: 'Shantell Sans', cursive;
+    }
+
+    .infoSec{
+        margin: 10px;
+        border: 20px 15px;
     }
 
     .horizontal{
-        width: 100%;
+        width: 95%;
         display: flex;
         justify-content: center;
+    }
+
+    .importante{
+        font-size: 20px;
+    }
+
+    #masInfo{
+        height: 100px;
     }

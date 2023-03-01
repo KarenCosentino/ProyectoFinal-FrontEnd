@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
     <title>Curriculum Vitae</title>
 </head>
 
@@ -29,33 +32,58 @@
 
     <script src="js/function.js"></script>
 
-    <div id="infoNombre" style="display: none;">
+    <div id="infoNombre" class="info" style="display: none;">
         <p id="presentacionNombre">Mi nombre es</p>
-        <p id="nombre">Nellie Hoffman</p>
+        <p id="nombre" class="importante">Nellie Hoffman</p>
     </div>
 
-    <div id="infoCorreo" style="display: none;">
+    <div id="infoCorreo" class="info style="display: none;">
         <p id=" presentacionCorreo "> Mi correo es</p>
-        <p id="contacto ">nellie.hoffman@example.com</p>
+        <p id="contacto " class="importante">nellie.hoffman@example.com</p>
     </div>
 
-    <div id="infoNacimiento" style="display: none;">
+    <div id="infoNacimiento" class="info" style="display: none;">
         <p id="presentacionNacimiento">Mi fecha de nacimiento es</p>
-        <p id="nacimiento">8/1/1985</p>
+        <p id="nacimiento" class="importante">8/1/1985</p>
     </div>
 
-    <div id="infoDireccion" style="display: none;">
+    <div id="infoDireccion" class="info" style="display: none;">
         <p id=" presentacionDireccion ">Mi dirección es</p>
-        <p id="direccion ">1408 Pockrus Page Rd</p>
+        <p id="direccion " class="importante">1408 Pockrus Page Rd</p>
     </div>
 
-    <div id="infoTelefono" style="display: none;">
+    <div id="infoTelefono" class="info" style="display: none;">
         <p id="presentacionTelefono">Mi telefono es</p>
-        <p id="telefono">(672) 827-9345</p>
+        <p id="telefono" class="importante">(672) 827-9345</p>
     </div>
 
+    <a href="#" onclick="mostrarInfo('contenedorInfo')"><img id="masInfo" src="iconos/lapiz.png"></a>
+    <div id="contenedorInfo" style="display: none;">
+        <p style="text-align:justify;" class="infoSec"> 
+            Phasellus feugiat ligula quis volutpat accumsan. Morbi id vulputate dui, vitae convallis purus. 
+            Curabitur commodo erat tellus, et auctor nisl vehicula ut. Cras ut lacinia purus, quis convallis
+            tortor. Maecenas facilisis tempor risus, id sodales sem aliquam vitae. Curabitur convallis egestas
+            purus non mollis. Nunc vitae orci nec augue vestibulum malesuada ut vel nulla. Interdum et
+            malesuada fames ac ante ipsum primis in faucibus. Donec interdum blandit lectus quis viverra. 
+            Sed in tellus venenatis, porttitor est vitae, mattis dui.
+        </p>
 
+        <p style="text-align:justify;" class="infoSec"> 
+            Phasellus sed euismod mauris, sed mollis metus. Morbi lacinia ligula non pretium posuere. Aliquam
+            erat volutpat. Nulla facilisi. Sed rutrum purus augue, ac sodales mauris molestie vitae. 
+            Nam eleifend et dui at suscipit. Proin blandit libero non facilisis convallis. Fusce a blandit
+            nisl. Donec et purus quam.
+        </p>
 
+        <p style="text-align:justify;" class="infoSec">
+            Quisque posuere viverra ligula. Nulla tristique, turpis sit amet rhoncus viverra, sapien ex imperdiet
+            augue, nec vestibulum nisl magna eget ipsum. Donec eleifend lorem dignissim efficitur scelerisque.
+            Suspendisse finibus lectus nec facilisis pulvinar. Nulla porttitor, neque laoreet condimentum
+            gravida, metus ligula mollis quam, in pulvinar tellus ante sit amet elit. Fusce dapibus tellus
+            ut sapien dapibus efficitur. Quisque nulla dolor, sagittis quis accumsan eu, pellentesque sit
+            amet sapien. Phasellus pulvinar est in luctus ultricies. Cras sed nisi metus.
+        </p>
+    </div>
 </body>
 
 </html>
