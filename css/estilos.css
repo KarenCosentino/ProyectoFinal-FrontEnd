@@ -47,4 +47,6 @@
 
     #masInfo{
         height: 100px;
+        display: block;
+        margin: auto;
     }
